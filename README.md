@@ -1,12 +1,22 @@
-# Create T3 App
+# Twitter Clone
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+> Simple Twitter Clone built off the [T3 Stack](https://create.t3.gg/).
+> Live demo [_here_](https://twitter-clone-pi-ten.vercel.app/).
 
-## What's next? How do I make an app with this?
+## Table of Contents
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Project Status](#project-status)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## General Information
+
+- I undertook this project as a hands-on means of learning how to build complex real world applications with the [T3 Stack](https://create.t3.gg/).
+
+## Technologies Used
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
@@ -14,15 +24,23 @@ If you are not familiar with the different technologies used in this project, pl
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
-## Learn More
+## Features
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Users can:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+- Login with Discord
+- Create tweets
+- Like tweets
+- Infinite scroll
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Project Status
 
-## How do I deploy this?
+Project is: _complete_.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Acknowledgements
+
+- This project was based on [this tutorial](https://youtu.be/nzJsYJPCc80).
+
+## Contact
+
+Created by [Peter Kibuchi](https://www.peterkibuchi.com/).
