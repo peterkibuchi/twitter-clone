@@ -18,12 +18,12 @@ const CreateTweet = () => {
     },
   });
 
-  const handleSubmit = async (e: Event) => {
+  const handleSubmit = async (e: React.ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
       await tweetSchema.parse({ text });
-    } catch (error) {
+    } catch (error: unknown) {
       setError(error.message);
       return;
     }

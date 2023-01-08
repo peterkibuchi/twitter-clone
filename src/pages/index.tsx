@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <div>
         {/* {JSON.stringify(session)} */}
-        <Timeline />
+        <Timeline where={{}} />
       </div>
     </>
   );
